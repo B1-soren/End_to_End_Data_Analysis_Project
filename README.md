@@ -61,21 +61,18 @@ Telecom_End_to_End_Data_Analytic_Project
 
 6.Tools & Technologies:
 --
-Tool Purpose:
-    Tableau Public:-
-    Dashboard Development, City-wise network performance, Customer risk and churn 
-    indicators, Executive KPI Calculations
-    Microsoft Excel;-
-    Data Cleaning & Preparation, Clean and standardize city names and dates, create month 
-    and year columns , identify high-usage customers using IF logic.
-    Python:-
-    Create customer risk score using functions and if-else, use lambda for heavy usage 
-    flags, Perform exploratory analysis and visualizations
-    SQL:-
-    Creation relational tables and primary/foreign keys, write joins across all datasets,
-    calculate complaint rate per customer, Use window functions for monthly trend 
-    analysis
-...
+Tool                                                             Purpose
+Tableau Public             Dashboard Development, City-wise network performance, Customer risk and churn indicators,                                  Executive KPI Calculations.
+
+Microsoft Excel            Data Cleaning & Preparation, Clean and standardize city names and dates, create month 
+                           and year columns , identify high-usage customers using IF logic.
+                           
+Python                    Create customer risk score using functions and if-else, use lambda for heavy usage 
+                          flags, Perform exploratory analysis and visualizations.
+                          
+SQL                       Creation relational tables and primary/foreign keys, write joins across all datasets,
+                          calculate complaint rate per customer, Use window functions for monthly trend analysis
+
 7.Project Structure:
 --
 Telecom-Analytics-Project/
@@ -140,7 +137,7 @@ Telecom-Analytics-Project/
     These analyses helped identify business trends before dashboard development.
 
 10.Research Questions & Key Findings:
---
+---
     1. Which city generates the highest revenue?
     Finding: Delhi generated the highest revenue among all cities.
     2. What is the customer churn rate?
